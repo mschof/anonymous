@@ -303,9 +303,9 @@ def print_linear_layer(M, n, t):
     print "n:", n
     print "t:", t
     print "N:", (n * t)
-    print "Result Algorithm 1:\n", algorithm_1(linear_layer, NUM_CELLS)
-    print "Result Algorithm 2:\n", algorithm_2(linear_layer, NUM_CELLS)
-    print "Result Algorithm 3:\n", algorithm_3(linear_layer, NUM_CELLS)
+    print "Result Algorithm 1:\n", algorithm_1(M, NUM_CELLS)
+    print "Result Algorithm 2:\n", algorithm_2(M, NUM_CELLS)
+    print "Result Algorithm 3:\n", algorithm_3(M, NUM_CELLS)
     hex_length = int(ceil(float(n) / 4)) + 2 # +2 for "0x"
     print "Prime number:", "0x" + hex(PRIME_NUMBER)
     matrix_string = "["
